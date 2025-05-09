@@ -1,0 +1,12 @@
+.carousel {
+    position: relative;
+    top: -12rem;
+    left: 2rem;
+    width: 57%;
+    background-color: #f0f0f0;
+    border: none;
+}
+
+.carousel-item img{
+    border-radius: 3px;
+}

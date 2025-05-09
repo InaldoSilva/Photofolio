@@ -24,6 +24,15 @@
     }
 }
 
+.navigation p {
+    letter-spacing: 7px;
+    color: #f0f0f0;
+    &:hover {
+        color: #f1c7c7;
+        transition: 1s;
+    }
+}
+
 .navigation ul li a {
     list-style: none;
     display: flex;
@@ -43,7 +52,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #ffffff;
 }
 
 .col-md-4 {
@@ -76,8 +85,8 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    position: absolute;
-    bottom : 0;
+    position: bottom;
+    bottom : -1rem;
 }
 
 .footer a img{
